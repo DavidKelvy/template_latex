@@ -1,0 +1,438 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{colortbl}
+\usepackage{bbding}
+\usepackage{ragged2e}
+\usepackage{fontawesome}
+\definecolor{cnjred}{HTML}{8B0000}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=cnjred,
+  urlcolor=cnjred,
+  citecolor=cnjred
+}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{shapes,snakes}
+
+\newcommand{\CheckStar}{\begin{tikzpicture} 
+    \matrix[nodes={draw, },
+       inner sep=0,row sep=0.80cm,column sep=0.5cm] 
+        {  
+    \node[star,star points=10,inner sep=0,minimum size=4.0mm ]{\begin{tikzpicture}\draw[scale=0.1](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;\end{tikzpicture}};\\
+    };
+\end{tikzpicture}}
+\newcommand{\CheckStarFI}{\begin{tikzpicture}
+  
+    \matrix[nodes={draw },
+        inner sep=0,row sep=0.80cm,column sep=0.5cm] 
+        {  
+    \node[star,star points=5,inner sep=0,minimum size=4.0mm] {\begin{tikzpicture}\draw[scale=0.1](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;\end{tikzpicture}};\\
+    };
+\end{tikzpicture}}
+
+\usetheme{Cuerna}
+\usecolortheme{default}
+
+
+\logo{\includegraphics[width=2.9cm]{uesta.png}}
+\title{\textbf{}}
+\author{Unidade de Apoio Especializado - Estatística\\
+\texttt{estatistica@stm.jus.br}}
+
+\date{}
+%\institute{Institute of Mathematics, Great University}
+
+\begin{document}
+
+  \begin{frame}
+    \titlepage
+  \end{frame}
+
+\begin{frame}
+%\frametitle{Equipe Técnica}
+%\framesubtitle{Unidade de Apoio Especializado - Estatística}
+\begin{figure}
+\centering
+\includegraphics[width=0.85\textwidth]{organograma1.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+%\frametitle{Equipe Técnica}
+%\framesubtitle{Unidade de Apoio Especializado - Estatística}
+\begin{figure}
+\centering
+\includegraphics[width=0.80\textwidth]{organograma2.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Equipe Técnica}
+\framesubtitle{Unidade de Apoio Especializado - Estatística}
+\begin{figure}
+\centering
+\includegraphics[width=0.75\textwidth]{organograma3.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Equipe Técnica}
+\framesubtitle{Unidade de Apoio Especializado - Estatística}
+\begin{figure}
+\centering
+\includegraphics[width=0.95\textwidth]{mapa_mental.png}
+\end{figure}
+\end{frame}
+
+  \begin{frame}
+    \frametitle{Equipe Técnica }
+   \framesubtitle{Unidade de Apoio Especializado - Estatística}
+
+\begin{itemize}
+    \item[\CheckStarFI] \textbf{Secretário SGEST}: Adalberto Sanches.
+\end{itemize}
+
+\vspace{0.4cm}
+   
+       \begin{itemize}
+    \item[\CheckmarkBold] \textbf{Chefe UESTA}: Caroline M. de Assis.
+    \item \textbf{Militar}: Lucas V. de Oliveira Teixeira.
+        \item \textbf{Servidor}: Nicollas S. Soares da Costa.
+    \item \textbf{Estagiário}: David K. Serafim dos Santos.
+  \end{itemize}
+  \end{frame}
+
+
+    \begin{frame}
+    \frametitle{Atribuições}
+       \framesubtitle{Unidade de Apoio Especializado - Estatística}
+
+\begin{justify}
+
+A unidade atua na \textbf{análise, tratamento e validação dos dados estatísticos da JMU}, produzindo \textbf{estudos, relatórios e painéis}, coordenando o \textbf{saneamento dos dados judiciais}, propondo \textbf{métodos e controles estatísticos} da produção judiciária, atendendo \textbf{demandas internas e externas}, validando remessas ao CNJ e prestando \textbf{suporte técnico às demais unidades}.
+
+\end{justify}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Metas Nacionais e Indicadores do Prêmio CNJ}
+
+\begin{table}[]
+\centering
+\begin{tabular}{|p{4cm}|p{4cm}|}
+\hline
+\rowcolor{blue!30}
+\textbf{Metas Nacionais} & \textbf{Metas Prêmio CNJ} \\ \hline
+\textbf{1: }Julgar mais processos que os distribuídos 
+& Reduzir tempo dos processos pendentes \\ \hline
+\textbf{2: }Julgar processos mais antigos 
+& Metas Nacionais \\ \hline
+
+\textbf{4: }Priorizar o julgamento dos processos relativos aos crimes contra a Administração Pública e à improbidade administrativa
+& Reduzir o percentual de processos antigos \\ \hline
+
+\textbf{5: }Reduzir a taxa de congestionamento 
+& Índice de Atendimento à Demanda \\ \hline
+
+\textbf{9: }Estimular a inovação
+& \\ \hline
+\end{tabular}
+\end{table}
+\end{frame}
+
+
+    \begin{frame}
+    \frametitle{Prêmio CNJ de Qualidade}
+
+\textbf{Consulte o regulamento completo e seus anexos:}
+\href{https://www.cnj.jus.br/pesquisas-judiciarias/premio-cnj-de-qualidade/}
+{Prêmio CNJ de Qualidade – Portal CNJ}
+\end{frame}
+
+
+  \begin{frame}
+    \frametitle{Painel de Metas Nacionais 2026}
+\begin{figure}[H]
+    \href{https://justica-em-numeros.cnj.jus.br/painel-metas/}{
+\includegraphics[
+      height=0.52\paperheight,
+      keepaspectratio
+    ]{painel_metas.png}
+}
+\end{figure}
+  \end{frame}
+
+    \begin{frame}
+    %\frametitle{Visualização do Painel de Metas}
+\begin{figure}[H]
+\includegraphics[width=1.05\textwidth]{meta1.png}
+
+\end{figure}
+  \end{frame}
+
+    \begin{frame}
+    \frametitle{Meta Nacional 1}
+    \framesubtitle{Julgar mais processos que os distribuídos}
+    \begin{justify}\textbf{Julgar} quantidade \textbf{maior} de processos de conhecimento do que os distribuídos \textbf{de 20/12/2025 a 19/12/2026}, excluídos suspensos e sobrestados.\end{justify}
+\begin{table}[]
+\begin{tabular}{cccc}
+\hline
+\textbf{Ano}  & \textbf{1G} & \textbf{STM} & \textbf{JMU} \\ \hline
+\textbf{2024} &  98,34\%           &  105,62\%            &   100,21\%           \\
+\textbf{2025} & 95,65\%     & 95,10\%      & 95,48\%      \\ \hline
+\end{tabular}
+\end{table}\begin{justify}
+    \begin{itemize}
+    \item[\CheckmarkBold] \textbf{2024}: Meta cumprida no geral.
+    \item \textbf{STM}: Desempenho acima da meta, com julgamento superior à distribuição.
+    \item[\XSolidBold] \textbf{2025}: Desempenho abaixo da meta em todos os segmentos.
+    \item \textbf{2026}: Foco em ações para recuperar o cumprimento da meta.
+  \end{itemize}\end{justify}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Meta Nacional 2}
+    \framesubtitle{Julgar processos mais antigos}
+    
+     \begin{justify}\textbf{Julgar todos} os procesos de conhecimento pendentes de julgamento \textbf{há 5 anos} (2021) \textbf{ou mais}; \textbf{95\%} dos processos distribuídos até \textbf{31/12/2023} nas \textbf{Auditorias} e \textbf{99\%} dos processos distribuídos até \textbf{31/12/2024} no \textbf{STM}.\end{justify}
+\begin{table}[]
+\begin{tabular}{cccc}
+\hline
+\textbf{Ano}  & \textbf{1G} & \textbf{STM} & \textbf{JMU} \\ \hline
+\textbf{2024} &   103,51\%          & 101,01\%             & Cumpriu            \\
+\textbf{2025} & 103,23\%     & 101,65\%      & 102.65\%      \\ \hline
+\end{tabular}
+\end{table}
+    \begin{itemize}
+    \item[\CheckmarkBold] \textbf{2024}: Meta superada em todos os segmentos.
+    \item[\CheckmarkBold]  \textbf{2025}: Manutenção do cumprimento com resultados estáveis.
+    \item \textbf{STM}: Percentual acima do patamar mínimo exigido.
+    \item \textbf{JMU}: Desempenho consistente acima de 100\%.
+  \end{itemize}
+  \end{frame}
+
+    \begin{frame}
+    \frametitle{Meta Nacional 4}
+    \framesubtitle{Priorizar processos crimes contra a Admnistração Pública}
+    
+     \begin{justify}\textbf{Identificar e julgar} até 31/12/2026, \textbf{95\%} dos processos da meta distribuídos até \textbf{31/12/2023} nas Auditorias e \textbf{99\%} dos processos da meta \textbf{distribuídos até 31/12/2024 no STM}. \end{justify}
+\begin{table}[]
+\begin{tabular}{cccc}
+\hline
+\textbf{Ano}  & \textbf{1G} & \textbf{STM} & \textbf{JMU} \\ \hline
+\textbf{2024} &   103,47\%          & 101,01\%             & Cumpriu            \\
+\textbf{2025} & 102,34\%     & 101,01\%      & Cumpriu      \\ \hline
+\end{tabular}
+\end{table}
+\begin{itemize}
+  \item[\CheckmarkBold] \textbf{2024}: Meta superada em todos os segmentos avaliados.
+  \item[\CheckmarkBold] \textbf{2025}: Manutenção do cumprimento da meta, com resultados estáveis.
+  \item \textbf{STM}: Percentual consistentemente acima do patamar mínimo exigido.
+  \item \textbf{JMU}: Desempenho consistente, com índices superiores a 100\%.
+\end{itemize}
+  \end{frame}
+
+%  \begin{frame}
+%    \frametitle{Meta Nacional 5}
+%    \framesubtitle{Reduzir a taxa de congestionamento}
+    
+%     \begin{justify}\textbf{Reduzir}, no mínimo, \textbf{em 0,5 ponto percentual} a taxa de congestionamento líquida na fase de conhecimento no 1º grau, \textbf{em relação a 2025} ou \textbf{manter} a taxa de congestionamento líquida \textbf{abaixo de 46\%} (até 2025 era 52\%).\end{justify}
+%\begin{table}[]
+%\begin{tabular}{cc}
+%\hline
+%\textbf{Ano}  & \textbf{1G} \\ \hline
+%\textbf{2024} &  45,44\%                    \\
+%\textbf{2025} & 46,17\%         \\ \hline
+%\end{tabular}
+%\end{table}\begin{justify}
+%    \begin{itemize}
+%    \item[\CheckmarkBold] \textbf{2024}: Percentual de 45,44\%, abaixo do limite.
+%    \item[\CheckmarkBold]  \textbf{2025}: Percentual de 46,17\%, mantendo cumprimento %da meta.
+%    \item \textbf{Tendência:} Estabilidade do indicador em patamar seguro.
+%    \item \textbf{Gestão:} Controle efetivo do estoque dentro do limite definido.
+%  \end{itemize}\end{justify}
+%  \end{frame}
+  
+ % \begin{frame}
+    %\frametitle{Meta Nacional 5}
+    %\framesubtitle{Resultados 2024/2025}
+%  \begin{figure}[H]
+%\includegraphics[width=1.1\textwidth]{TCL.jpg}
+%\end{figure}
+ % \end{frame}
+
+    \begin{frame}[plain]
+    \frametitle{Painel DataJud - Estatísticas}
+    \vspace{-0.4cm}
+ \begin{figure}
+    \centering
+    \href{https://justica-em-numeros.cnj.jus.br/painel-estatisticas/}{
+      \includegraphics[
+        height=0.52\paperheight,
+        keepaspectratio
+      ]{painel_datajud.png}
+    }
+  \end{figure}
+  \end{frame}
+
+      \begin{frame}
+    %\frametitle{Visualizção Painel DataJud - Estatísticas}
+\begin{figure}[H]
+%\includegraphics[width=1.05\textwidth]{lancia_datajud.png}
+\includegraphics[width=1.05\textwidth]{estatisticas_minDavid.png}
+
+
+\end{figure}
+  \end{frame}
+
+    \begin{frame}
+    \frametitle{Índice de Atendimento à Demanda}
+    %\framesubtitle{Reduzir a taxa de congestionamento}
+    
+    \begin{justify} \textbf{Baixar} quantidade \textbf{maior} de processos do que a quantidade de processos de casos novos recebidos com apuração em \textbf{31/07/2026}, dos 12 meses anteriores. \end{justify}
+
+\begin{figure}[H]
+\includegraphics[width=1.0\textwidth]{IAD.jpg}
+\end{figure}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Tempo do Pendente Líquido}
+    %\framesubtitle{Reduzir a taxa de congestionamento}
+    
+     \begin{justify}\textbf{Manter} o \textbf{tempo médio} de duração dos processos de conhecimento \textbf{pendentes}, excluídos suspensos ou sobrestados, \textbf{abaixo de 300 dias} com apuração da situação processual em \textbf{31/07/2026}, dos 12 meses anteriores.\end{justify}
+
+\begin{figure}[H]
+\includegraphics[width=0.9\textwidth]{Tempo.jpg}
+\end{figure}
+  \end{frame}
+
+
+      \begin{frame}
+    \frametitle{Painel Estatístico da JMU}
+\begin{figure}[H]
+    \href{https://www.stm.jus.br/institucional/gestao-estrategica/estatisticas/painel-estatistico}{
+\includegraphics[width=0.9\textwidth]{painel_jmu.png}
+}
+\end{figure}
+  \end{frame}
+
+        \begin{frame}
+    %\frametitle{Visualização Painel Estatístico da JMU}
+\begin{figure}[H]
+%\includegraphics[width=1.05\textwidth]{lancia_jmu.png}
+\includegraphics[width=1.05\textwidth]{painel_min_david.png}
+\end{figure}
+  \end{frame}
+
+        \begin{frame}
+    \frametitle{Guia Estatístico da JMU}
+\begin{figure}[H]
+    \href{https://www.stm.jus.br/images/gestao-estrategica/estatisticas/book/index.html}{
+\includegraphics[width=1.1\textwidth]{guia_estat.png}
+}
+\end{figure}
+  \end{frame}
+
+
+
+
+\begin{frame}
+\frametitle{Indicadores – Atividade Finalística}
+
+\begin{itemize}
+
+%\item \textbf{Atividade Finalística}
+
+\item 1 Índice de Atendimento à Demanda
+\item 2 Taxa de Congestionamento Líquida
+\item 3 Índice de Julgamento
+\item 4 Percentual de Processos Antigos
+\item 5 Proporção de Processos Paralisados há mais de 120 dias
+\item 6 Tempo Médio de Tramitação de Processos Pendentes
+\item 7 Transparência Ativa da JMU
+\item 8 Índice de Aderência ao CODEX/DataJud
+
+\end{itemize}
+
+\end{frame}
+\begin{frame}
+\frametitle{Indicadores – Atividade de Apoio}
+
+\begin{itemize}
+
+%\item \textbf{Atividade de Apoio}
+
+\item 1 Percentual de Servidores com Exames Periódicos Realizados
+\item 2 Percentual de Capacitação em Sustentabilidade, Inclusão e Equidade Racial
+\item 3 Percentual de Capacitação em Liderança
+\item 4 Percentual de Servidores Capacitados
+\item 5 Percentual de Impressões
+\item 6 Índice de Divulgação da JMU
+
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Prêmio JMU – Atividade Finalística}
+
+\begin{table}
+\centering
+\begin{tabular}{|c|p{9cm}|}
+\hline
+\textbf{Item} & \textbf{Indicador} \\ \hline
+
+1 & Índice de Atendimento à Demanda \\ \hline
+2 & Taxa de Congestionamento Líquida \\ \hline
+3 & Índice de Julgamento \\ \hline
+4 & Percentual de Processos Antigos \\ \hline
+5 & Proporção de Processos Paralisados há mais de 120 dias \\ \hline
+6 & Tempo Médio de Tramitação de Processos Pendentes \\ \hline
+7 & Transparência Ativa da JMU \\ \hline
+8 & Índice de Aderência ao CODEX/DataJud \\ \hline
+
+\end{tabular}
+\end{table}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Prêmio JMU – Atividade de Apoio}
+
+\begin{table}
+\centering
+\begin{tabular}{|c|p{9cm}|}
+\hline
+\textbf{Item} & \textbf{Indicador} \\ \hline
+
+1 & Servidores com Exames Periódicos Realizados \\ \hline
+2 &  Capacitação em Sustentabilidade, Inclusão e Equidade Racial \\ \hline
+3 &  Capacitação em Liderança \\ \hline
+4 &  Servidores Capacitados \\ \hline
+5 & Percentual de Impressões \\ \hline
+6 & Índice de Divulgação da JMU \\ \hline
+
+\end{tabular}
+\end{table}
+
+\end{frame}
+
+\end{document}
+
+     
+\begin{comment}
+\begin{itemize}\begin{justify}
+    \item[\faCheckCircle] Estimular e reconhecer o desenvolvimento de mecanismos de governança e gestão no Poder Judiciário.
+    \item[\faCheckCircle] Contribuir para o aprimoramento da prestação jurisdicional.
+    \item[\faCheckCircle] Promover a transparência e a melhoria na prestação de informações.
+    \item[\faCheckCircle] Incentivar o aperfeiçoamento do Sistema de Estatísticas do Poder Judiciário, bem como o uso da inovação e da tecnologia.
+    \item[\faCheckCircle] Fomentar o desenvolvimento de subsídios para o planejamento estratégico e para a formulação das Metas Nacionais do Judiciário.
+    \end{justify}
+\end{itemize}
+\end{comment}
